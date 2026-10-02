@@ -49,7 +49,7 @@ GEM
     nanaimo (0.4.0)
     nkf (0.3.0)
     notify (0.5.2)
-    parallel (2.2.0)
+    parallel (1.28.0)
     parser (3.3.12.0)
       ast (~> 2.4.1)
       racc
@@ -101,6 +101,7 @@ DEPENDENCIES
   kicker
   mocha (~> 1.2.0)
   mocha-on-bacon
+  parallel (< 2.0)
   prettybacon
   rake (~> 12.0)
   rubocop (<= 1.91.0)

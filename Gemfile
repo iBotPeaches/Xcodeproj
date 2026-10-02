@@ -15,6 +15,7 @@ group :development do
   gem 'codeclimate-test-reporter', '~> 0.4.1', :require => nil
   gem 'rubocop', '<= 1.91.0'
   gem 'rubocop-ast', '<= 1.50.0' # pin to prevent pulling deps that drop 2.7 support
+  gem 'parallel', '< 2.0' # pin to prevent pulling deps that drop 2.7 support
   gem 'simplecov'
 end
 
