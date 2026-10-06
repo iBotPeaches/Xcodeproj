@@ -9,6 +9,10 @@ AllCops:
   SuggestExtensions: false
   NewCops: enable
 
+# We're not there yet
+Style/Documentation:
+  Enabled: false
+
 #- CocoaPods -----------------------------------------------------------------#
 
 Metrics/ParameterLists:
